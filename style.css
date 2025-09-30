@@ -61,3 +61,75 @@ nav {
   border: none;
   cursor: pointer;
 }
+
+/* first section */
+
+.first {
+  min-height: 100vh;
+  background-color: #87a2ff;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding: 120px 15%;
+}
+
+.left-section {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.left-section h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 61px;
+}
+
+.left-section p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+
+.order-input {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 80px;
+  align-items: center;
+  width: 475px;
+  padding: 8px 3px;
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+
+.order-input input {
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.order-input button {
+  background-color: #e94339;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 18px 30px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.right-section {
+  width: 570px;
+  height: 478px;
+  padding: 0 5px;
+  border-radius: 36px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
