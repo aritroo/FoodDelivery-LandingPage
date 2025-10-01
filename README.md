@@ -1,6 +1,6 @@
 # FoodDelivery Landing Page
 
-A simple and responsive **landing page** for a food delivery service.  
+A simple **landing page** for a food delivery service.  
 
 ⚠️ **Disclaimer:** This project is created **only for learning and educational purposes**.  
 It is **not licensed for redistribution, resale, or commercial use**.  
