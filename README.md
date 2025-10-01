@@ -12,7 +12,6 @@ Live Demo: [https://aritroo.github.io/FoodDelivery-LandingPage/](https://aritroo
 
 ## Features
 
-- Responsive layout (works on desktop and mobile)  
 - Navigation bar with links to different sections  
 - Food/menu section to display dishes  
 - About / Contact section for information  
