@@ -59,5 +59,9 @@ To run the project locally:
 │   └── styles.css
 ├── js/                    # JavaScript files
 │   └── script.js
-├── images/                # Assets and images
+├── assets/                # Assets and images
+│    └── icons/
+│         └──  icon files
+│    └── images/
+│         └──  image files            
 └── README.md              # Project documentation
