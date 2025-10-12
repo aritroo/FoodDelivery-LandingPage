@@ -167,23 +167,36 @@ nav {
 
 .photo-container {
   width: 1609px;
-  height: 800px;
+  height: 1006px;
   background-color: #ffffff;
   margin: 10px;
   border-radius: 31px;
   display: flex;
   flex-direction: column;
-  position: relative;
+  justify-content: flex-start;
+  gap: 50px;
   box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 4px;
 }
 
-.photo-container span {
+.photo-header {
+  position: relative;
+  height: 110px;
+}
+
+.photo-header span {
   font-family: "Inter", sans-serif;
   font-size: 40px;
   font-style: italic;
   position: absolute;
-  top: 25px;
-  left: 33px;
+  top: 50px;
+  left: 58px;
+}
+
+.photo-imgWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .second {
