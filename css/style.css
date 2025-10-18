@@ -200,13 +200,13 @@ nav {
 }
 
 .second {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #afddff;
   padding: 30px;
 }
 
 .second-frame {
-  height: 100%;
+  height: auto;
   width: 65%;
   margin: 0 auto;
   padding-top: 80px;
@@ -295,6 +295,64 @@ nav {
   font-family: "Inter", sans-serif;
   font-size: 23px;
   max-width: 545px;
+}
+
+.second-order {
+  height: auto;
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.order-content {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.order-text {
+  text-align: center;
+}
+
+.order-text h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.order-cardWrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 55px;
+}
+
+.order-card {
+  width: 214px;
+  height: 267px;
+  background-color: #fafafa;
+  padding: 8px;
+  border-radius: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  flex-direction: column;
+}
+
+.order-card-icon {
+  width: 94px;
+  height: 94px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-card-text {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  text-align: center;
 }
 
 .third {
